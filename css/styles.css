@@ -20,7 +20,7 @@ footer {
 }
 
 nav a {
-  font-size: 18px;
+  font-size: 21px;
 
   font-weight: 400;
   text-decoration: none;
@@ -63,11 +63,13 @@ nav a:hover {
   color: white;
 }
 
-nav ul{
-  padding-inline: 4 rem;
+nav ul {
+  padding-inline: 4rem;
   display: flex;
   gap: 2rem;
+  justify-content: center;
 }
+
 
 nav li {
   list-style-type: none;
@@ -136,6 +138,7 @@ td{
 .card p{
   color: #416D19;
   font-weight: 600;
+  text-indent: 1em;
 }
 
 figure figcaption{
